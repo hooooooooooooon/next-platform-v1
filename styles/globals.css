@@ -40,6 +40,6 @@ body {
 
 @layer components {
   .primary-btn {
-    @apply w-full bg-blue-600 text-neutral-200 font-medium rounded-md text-center hover:bg-blue-500 transition-colors;
+    @apply w-full bg-blue-600 text-neutral-200 font-medium rounded-md text-center hover:bg-[#215ADE] transition-colors;
   }
 }
