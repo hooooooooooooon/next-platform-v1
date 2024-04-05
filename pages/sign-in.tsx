@@ -19,7 +19,7 @@ export default function SignIn() {
           required
           minLength={PW_MIN_LENGTH}
         />
-        <Button text="로그인하기" />
+        <Button text="로그인" />
       </form>
       <SocialSignin />
     </div>
