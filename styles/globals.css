@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  a {
+    @apply text-blue-500;
+  }
+}
+
+@layer components {
+  .primary-btn {
+    @apply w-full bg-blue-600 text-neutral-200 font-medium rounded-md text-center hover:bg-blue-500 transition-colors;
+  }
+}
