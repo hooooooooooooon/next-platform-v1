@@ -37,7 +37,7 @@ export default function Home() {
       <Link href="/products/add" className="flex gap-5">
         <div className="flex flex-col w-full pt-5 px-5">
           <div className="text-neutral-600 w-full flex flex-col items-center justify-center rounded-md border-[1px] border-dashed border-neutral-600 pb-5 hover:border-neutral-500 hover:text-neutral-500">
-            <PlusIcon className="h-16" />
+            <PlusIcon className="h-12" />
             <div className="text-sm">신규 프로젝트를 추가해주세요.</div>
           </div>
           {[1, 1, 1, 1, 1, 1, 1].map((_, i) => (
