@@ -7,7 +7,7 @@ export default function Profile() {
       <div className="w-16 h-16 bg-neutral-600 rounded-full" />
       <div className="flex flex-col">
         <span className="font-medium text-neutral-200">사용자</span>
-        <span className="text-sm text-neutral-400">프로필 수정 ></span>
+        <span className="text-sm text-neutral-400">프로필 수정</span>
       </div>
     </div>
     <div className="mt-10 flex justify-around">
