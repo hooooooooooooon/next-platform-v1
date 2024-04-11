@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="ko">
       <Head />
-      <body className={"bg-neutral-900 text-white max-w-screen-sm mx-auto"}>
+      <body className={"bg-white text-neutral-900 max-w-screen-sm mx-auto"}>
         <Main />
         <NextScript />
       </body>

@@ -10,12 +10,12 @@
 
 @layer base {
   a {
-    @apply text-blue-500;
+    @apply text-[#120A8F];
   }
 }
 
 @layer components {
   .primary-btn {
-    @apply w-full bg-blue-600 text-neutral-200 font-medium rounded-md text-center hover:bg-[#215ADE] transition-colors;
+    @apply w-full rounded-md bg-[#120A8F] text-center font-medium text-neutral-200 transition-colors hover:bg-[#00006A];
   }
 }

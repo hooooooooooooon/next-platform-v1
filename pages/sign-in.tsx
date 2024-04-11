@@ -11,13 +11,11 @@ export default function SignIn() {
         <h2 className="text-xl">이메일을 통해 로그인해주세요.</h2>
       </div>
       <form className="flex flex-col gap-3">
-        <Input name="email" type="email" placeholder="  이메일" required />
+        <Input name="이메일" required />
         <Input
-          name="password"
+          name="비밀번호"
           type="password"
-          placeholder="  비밀번호"
           required
-          minLength={PW_MIN_LENGTH}
         />
         <Button text="로그인" />
       </form>
