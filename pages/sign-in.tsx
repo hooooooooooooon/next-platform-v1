@@ -1,7 +1,7 @@
 import Button from "@/components/button";
 import Input from "@/components/input";
 import SocialSignin from "@/components/social-sign-in";
-import useMutation from "@/lib/client/useMutation";
+import useMutation from "@/libs/client/useMutation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 

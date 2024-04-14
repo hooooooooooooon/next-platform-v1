@@ -25,7 +25,7 @@ export default function Input({
           required={required}
           type={type}
           {...register}
-          className="peer/input relative z-[5px] w-full border-b-[1px] border-b-neutral-400 bg-none pb-2 text-base text-neutral-400 placeholder:text-neutral-400 focus:outline-none"
+          className="peer/input relative z-[5px] w-full border-b-[1px] border-b-neutral-400 bg-none pb-2 text-base text-neutral-800 placeholder:text-neutral-400 focus:outline-none"
         />
         <label htmlFor={name} className="pointer-events-none absolute bottom-2 left-2 z-0 text-base capitalize text-neutral-400 transition-all duration-300 peer-valid/input:bottom-8 peer-valid/input:text-xs peer-valid/input:font-bold peer-focus/input:bottom-8 peer-focus/input:text-xs peer-focus/input:font-bold peer-focus/input:text-[#120A8F]">
           {name}
